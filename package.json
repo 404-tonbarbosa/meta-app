@@ -1,14 +1,18 @@
 {
-  "name": "meta-api",
+  "name": "meta-frontend",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "better-sqlite3": "^8.0.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "react": "^18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
